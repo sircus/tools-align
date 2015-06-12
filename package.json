@@ -1,0 +1,27 @@
+{
+  "name": "sircus-tools-align",
+  "description": "A align tools Module for Sircus.",
+  "version": "0.0.1",
+  "homepage": "http://sircus.github.io/tools-align",
+  "keywords": [
+    "scalability",
+    "maintainability",
+    "designability",
+    "css"
+  ],
+  "author": {
+    "name": "Yasuyuki Enomoto",
+    "url": "http://blivesta.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sircus/tools-align.git"
+  },
+  "scripts": {
+    "build": "css2scss ./index.css ./_converted.scss"
+  },
+  "devDependencies": {
+    "sircus-process-css2scss": "^0.2.0"
+  }
+}
