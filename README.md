@@ -2,11 +2,9 @@
 
 [![npm version](https://img.shields.io/npm/v/sircus-tools-align.svg?style=flat)](https://www.npmjs.com/package/sircus-tools-align)
 
-> A align tools Module for Sircus.
-
 ## Installation
 
-> use npm:
+> npm:
 
 ```bash
 $ npm install sircus-tools-align
@@ -14,18 +12,18 @@ $ npm install sircus-tools-align
 
 ## Usage
 
-> use cssnext:
+> cssnext:
 
 input.css
 ```css
 @import "sircus-tools-align"
 ```
 
-> use sass:
+> sass:
 
 input.scss
-```css
-@import "node_modules/sircus-tools-align/converted"
+```scss
+@import "node_modules/sircus-tools-align/converted";
 ```
 
 
